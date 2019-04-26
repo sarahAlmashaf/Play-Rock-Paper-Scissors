@@ -82,9 +82,7 @@ class Game:
 
     def play_game(self):
         print(Style.BRIGHT, Fore.YELLOW)
-        print("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        print("~~~~ Welcome to a new Rock, Paper, Scissors game! ~~~~")
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        print(" Welcome to a new Rock, Paper, Scissors game! ")
         print("\nLet's get started!")
         for round in range(7):
             print(Fore.YELLOW)
@@ -94,9 +92,7 @@ class Game:
             except KeyboardInterrupt:
                 exit(0)
         print(Fore.YELLOW)
-        print("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        print("~~~~~~~~~~~~~~~~~ GAME OVER! ~~~~~~~~~~~~~~~~~")
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
+        print(" GAME OVER! 
         if self.p1.score > self.p2.score:
             print(Fore.GREEN)
             print("And the winner is... PLAYER 1!")
